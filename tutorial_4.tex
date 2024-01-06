@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amsfonts, enumerate}
+\pagestyle{empty}
+
+\title{Creating Lists}
+\author{Abdulqadir Saieb}
+\date{Jan 6, 2024}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Basic Lists:}
+\begin{enumerate}
+\item[] pencil
+\item[] ruler
+\item[] calculator
+\item[] notebook
+\item[] highlighter
+\end{enumerate}
+
+\vspace{0.5cm}
+\section{Numbered Lists:}
+\begin{enumerate}
+\item pencil
+\item ruler
+\item calculator
+\item notebook
+	\begin{enumerate}
+	\item notes
+	\item homework
+	\item assessments
+		\begin{enumerate}
+		\item tests
+		\item quizzes 
+		\item journal entries
+		\end{enumerate}
+	\end{enumerate}
+\item highlighter
+\end{enumerate}
+
+\vspace{0.5cm}
+\begin{enumerate}[A.]
+\item pencil
+\item ruler
+\item calculator
+\item notebook
+\end{enumerate}
+
+\vspace{0.5cm}
+\begin{enumerate}[I.]
+\item pencil
+\item ruler
+\item calculator
+\item notebook
+\end{enumerate}
+
+\vspace{0.5cm}
+\begin{enumerate}\setcounter{enumi}{5}
+\item pencil
+\item ruler
+\item calculator
+\item notebook
+\end{enumerate}
+
+\vspace{0.5cm}
+\begin{enumerate}[a)]
+\item pencil
+\item ruler
+\item calculator
+\item notebook
+\item highlighter
+\end{enumerate}
+
+\vspace{0.5cm}
+\section{Bulleted Lists:}
+\begin{itemize}
+\item pencil
+\item ruler
+\item calculator
+\item notebook
+	\begin{itemize}
+	\item notes
+	\item homework
+	\item assessments
+		\begin{itemize}
+		\item tests
+		\item quizzes 
+		\item journal entries
+		\end{itemize}
+	\end{itemize}
+\item highlighter
+\end{itemize}
+
+\end{document}
